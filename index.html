@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Management System</title>
+    <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="https://gstatic.com" crossorigin>
+    <link href="https://fonts.cdnfonts.com/css/mollie-glaston" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/poppins" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=rob0to:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<div class="con">
+
+    <nav>
+        <h1 id="pageHeading">Student Management System</h1>
+    </na>
+
+    <section class="list">
+
+        <h2>1. Change Page Heading</h2>
+
+        <div class="row">
+
+            <input type="text" id="headingInput" placeholder="Student Management System">
+
+            <button id="updateHeadingBtn">
+                <i class="fa-solid fa-pen"></i>
+                Update Heading
+            </button>
+
+        </div>
+
+        <p>Update the main heading displayed on the page.</p>
+
+    </section>
+
+    <section class="list">
+
+        <h2>2. Change Heading Color</h2>
+
+        <div class="row">
+
+            <input type="color" id="colorpicker" value="#2563EB">
+
+            <span class="textcolor">
+                Current Color:
+                <strong>#2563EB</strong>
+            </span>
+
+        </div>
+
+        <p>Select a color for the page heading.</p>
+
+    </section>
+
+    <section class="list">
+
+        <h2>3. Add New Student</h2>
+
+        <div class="row">
+
+            <input type="text" id="studentInput" placeholder="Enter student name">
+
+            <button id="addStudentBtn">
+                <i class="fa-solid fa-plus"></i>
+                Add Student
+            </button>
+
+        </div>
+
+        <p>Enter the student's name and click Add.</p>
+
+    </section>
+
+    <section class="list">
+
+        <h2>4. Student List</h2>
+
+        <table>
+
+            <thead>
+
+                <tr>
+                    <th>#</th>
+                    <th>Student Name</th>
+                    <th>Action</th>
+                </tr>
+
+            </thead>
+
+            <tbody id="studentTableBody">
+
+                <tr>
+                    <td>1</td>
+                    <td>Malik Jamiu</td>
+                    <td>
+                        <button class="btn">
+                            <i class="fa-solid fa-trash"></i>
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Jimmy Ekong</td>
+                    <td>
+                        <button class="btn">
+                            <i class="fa-solid fa-trash"></i>
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>Stella Oluwaseun</td>
+                    <td>
+                        <button class="delete-btn">
+                            <i class="fa-solid fa-trash"></i>
+                            Delete
+                        </button>
+                    </td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
+    </section>
+
+</div>
+
+<script src="index.js"></script>
+
+</body>
+</html>
