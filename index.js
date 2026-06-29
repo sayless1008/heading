@@ -12,9 +12,9 @@ const addStudentBtn = document.getElementById("addStudentBtn");
 const studentTableBody = document.getElementById("studentTableBody");
 
 let students = [
-    "John Doe",
-    "Mary Johnson",
-    "David Smith"
+    "Malik Jamiu",
+    "Jimmy Ekong",
+    "Stella Oluwaseun"
 ];
 
 function displayStudents() {
